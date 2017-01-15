@@ -1,0 +1,653 @@
+@import bourbon
+@import vars.sass
+@import magnific
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+
+.city-wrapp
+	width: 100%
+	background: #fff
+	padding-bottom: 80px
+
+.img-wrapp
+	background: url(img/city.png)
+	background-size: cover
+	width: 452px
+	height: 264px
+	margin-top: 70px
+	float: right
+	margin-right: 100px
+	
+
+
+.city-title
+	color: #29d9c2
+	margin-top: 70px
+
+	span
+		color: #01a2a6
+
+.city-text
+	line-height: 35px
+	margin-top: -15px
+	max-width: 550px
+
+.up-line
+	width: 100%
+	height: 40px
+	background: rgba(#fff,.9)
+	margin-top: -37px
+	border-radius: 1px
+
+.destination-wall
+	min-height: 1450px
+	background: #f2fefe
+	padding-bottom: 50px
+
+.destination-title
+	color: #01a2a6
+
+	span
+		color: #29d9c2
+
+.destination-wrap
+	padding-left: 80px
+	padding-top: 20px
+
+	p
+		line-height: 35px
+		margin-top: -10px
+
+
+.destination-wrap2
+	padding-top: 105px
+
+.destination-see
+	display: block
+	padding: 0
+	color: #aeaeae
+	cursor: pointer
+	float: right
+	font-family: "LatoWebMedium", sans-serif
+	margin-right: 100px
+	&:hover
+		text-decoration: underline
+		color: #aeaeae
+	i
+		margin-right: 10px
+		font-size: 20px
+
+#test-modal
+	text-align: center
+	
+	a
+		color: #fff
+
+	p
+		margin-left: 50px
+		margin-right: 50px
+
+.search
+	border: 1px solid #e8e8e8
+	font-size: 14px
+	padding: 10px
+	color: #b5b5b5
+	font-style: italic
+	border-radius: 20px
+	padding-left: 40px
+	width: 235px
+	&::placeholder
+		color: #b5b5b5
+		font-family: "LatoWeblight", sans-serif
+		font-style: italic
+
+.fa-search
+	position: absolute
+	margin-top: 12px
+	margin-left: 13px
+
+.search-wrapp
+	margin-left: 50px
+	margin-top: 50px
+
+.filter
+	font-size: 16px
+	margin-top: 60px
+	padding-right: 80px
+	.active
+		font-family: "LatoWebBlack", sans-serif
+		color: #777777
+
+.all,.recomended
+	float: right
+	cursor: pointer
+	color: #aeaeae
+
+.imager
+	width: 100%
+	height: 500px
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+	margin-top: 20px
+
+.triangle
+	position: absolute
+	@include triangle(27px, #f5fafc, left)
+	float: right
+	left: 100%
+	margin-left: -28px
+	top: 50%
+	margin-top: -2px
+
+.see-m
+	color: #f6f6f6
+	font-family: "LatoWebBold", sans-serif
+	font-size: 16px
+	position: absolute
+	right: 50px
+	bottom: 20px
+
+	&:hover
+		text-decoration: none
+
+.batu-wrapp
+	min-height: 500px
+	margin-top: 20px
+	margin-left: -15px
+	background: #f5fafc
+
+.icon-batu
+	width: 86px
+	height: 90px
+	background-repeat: no-repeat
+	background-size: cover
+	margin-top: 50px
+	margin-left: 10px
+
+.batu-title
+	color: #01a2a6
+	font-family: "LatoWebLight", sans-serif
+	font-size: 30px
+	margin-top: 20px
+
+.batu-text
+	font-family: "LatoWebBold", sans-serif
+	color: #777777
+	line-height: 35px
+	padding-bottom: 50px
+	font-size: 16px
+
+.icon-bromo
+	width: 107px
+	height: 53px
+
+.bromo-text
+	color: #777777
+	font-family: "LatoWebRegular", sans-serif
+
+.imager-bromo
+	height: 370px
+	margin-left: -15px
+
+.triangle-bromo
+	position: absolute
+	@include triangle(27px, #f5fafc, right)
+	float: right
+	left: 0%
+	margin-left: 0px
+	top: 50%
+	margin-top: -2px
+
+.bromo-wrapp
+	min-height: 370px
+	margin-top: 20px
+	background: #f5fafc
+
+.imager-siru
+	margin-left: -27px
+
+.pagination
+	color: #acacac
+	font-family: "ChunkFive", sans-serif
+	font-size: 18px
+	position: absolute
+	left: 50%
+	margin-left: -176px
+	a
+		color: #acacac
+
+	a.active
+		color: #01a2a6
+
+	li
+		list-style: none
+		display: inline-block
+		margin-left: 20px
+
+.ittinery-container
+	min-height: 1280px
+	padding-bottom: 50px
+	h2
+		color: #01a2a6
+		text-align: center
+	span
+		color: #29d9c2
+	p
+		text-align: center
+		margin-top: -15px
+
+.drag-wrapp
+	margin-top: 120px
+
+.drag-box1
+	width: 100%
+	background: #ffffa6
+	border-radius: 4px
+	padding-bottom: 100px
+
+
+.line-title
+	text-align: center
+	height: 75px
+	color: #fff
+	background: url(img/boxwall.png) no-repeat
+	background-size: cover
+	font-size: 18px
+	font-family: "LatoWebBlack", sans-serif
+	line-height: 78px
+
+.day
+	float: left
+	font-family: "LatoWebHeavy", sans-serif
+	font-size: 16px
+	margin-top: 25px
+	margin-left: 25px
+
+.date
+	float: right
+	font-family: "LatoWebHeavy", sans-serif
+	font-size: 16px
+	margin-top: 25px
+	margin-right: 25px
+
+.drop-value
+	width: 100%
+	height: 70px
+	border: 2px solid #d5d57d
+	margin-top: 20px
+	background: #fff
+	cursor: pointer
+
+.drop-icon
+	width: 80px
+	height: 70px
+	background: url(img/bromo-min.png) center no-repeat
+	margin-left: 10px
+	float: left
+
+.drop-text
+	font-family: "LatoWebLight", sans-serif
+	float: left
+	font-size: 20px
+	line-height: 70px
+	color: #626262
+	margin-left: 10px
+
+.drop-time
+	float: right
+	line-height: 70px
+	margin-right: 20px
+	font-family: "LatoWebLight", sans-serif
+	font-size: 20px
+
+.subs-button
+	font-family: "LatoWebBlack", sans-serif
+	background: #f5e99e
+	padding: 10px
+	padding-left: 15px
+	width: 230px
+	cursor: pointer
+	float: right
+	border-radius: 3px
+	margin-top: -17px
+	&:hover
+		color: #aea25c
+	a
+		color: #d8cb7d
+		&:hover
+			color: #aea25c
+	i
+		color: #aea25c
+
+
+.fa-plus-circle
+	float: right
+	margin-top: 5px
+	margin-right: 10px
+
+.dest-add
+	font-family: "LatoWebBold", sans-serif
+	color: #aea25c
+	font-size: 16px
+	background: #f5e99e
+	margin-top: -2px
+	padding: 0
+	padding-left: 20px
+	padding-right: 20px
+	border-radius: 0px 0px 0px 5px 
+	li
+		list-style: none
+		list-style: none
+		padding: 15px
+		border-top: 2px solid #dbce80
+	li:first-child
+		border-top: none
+
+.dropdown
+	width: 100%
+	height: 70px
+	background: #fbf6a3
+	margin-top: 15px
+	border-radius: 5px
+	border: 5px dashed #e8e897
+	text-align: center
+	color: #d8cb7d
+	font-family: "LatoWebHeavy", sans-serif
+	line-height: 65px
+	font-size: 16px
+
+#test-modal2
+	text-align: center
+	
+	.modal-input
+		padding: 10px
+		background: rgba(#333,.5)
+		border: 1px solid #333
+
+.text-a
+	text-align: center
+	padding-top: 30px
+
+.list-dest
+	font-size: 18px
+	font-family: "LatoWebBlack", sans-serif
+	border-bottom: 2px solid #29d9c2
+	padding-bottom: 5px
+
+.list-sort
+	font-size: 16px
+	font-family: "LatoWebBlack", sans-serif
+	float: left
+	margin-top: 50px
+.select
+	margin-top: 52px
+	margin-left: 10px
+	border: none
+	color: #bcbcbc
+	font-family: "LatoWebMedium", sans-serif
+	font-size: 16px
+	outline: 0
+
+.drag-list
+	margin: 0
+	padding: 0
+	li
+		list-style: none
+		padding: 0
+		margin: 0
+		height: 70px
+		width: 100%
+		margin-top: 15px
+		cursor: pointer
+		box-shadow: 0px 0px 3px rgba(#333,.3)
+		border-radius: 5px
+		background: #fff
+
+.d-title
+	font-family: "LatoWeblight", sans-serif
+	font-size: 20px
+	float: left
+	margin-left: 20px
+	margin-top: 10px
+	color: #626262
+
+.estimated
+	font-family: "LatoWeblight", sans-serif
+	font-size: 14px
+	float: left
+	color: #b9b9b9
+	margin-left: -95px
+	margin-top: 12px
+
+.d-icon
+	background: url(img/bromo-min2.png) no-repeat
+	background-size: cover
+	width: 63px
+	height: 31px
+	float: right
+	margin-right: 15px
+	margin-top: -10px
+
+a[class*=result-button]
+	color: white
+	font-size: 16px
+	font-family: "LatoWebHeavy", sans-serif
+	padding: 20px 20px
+	border-radius: 30px
+	cursor: pointer
+	float: right
+	margin-top: 30px
+
+	i
+		padding-right: 10px
+	&:hover
+		text-decoration: none
+
+.result-button1
+	background: #c3f37f
+
+
+.result-button2
+	background: #3ddbc7
+	margin-right: 30px
+
+.ui-droppable-active
+	border: 5px dashed #c6c694
+
+.map-wrapp
+	width: 100%
+	height: 660px
+	margin: 0
+	padding: 0
+
+
+.map-container
+	margin: 0
+	padding: 0
+
+.map-filter
+	width: 100%
+	height: 100%
+	position: absolute
+	background: rgba(#2fafb1,.8)
+	padding-right: 40px
+	margin: 0
+
+.cont-title
+	color: white
+	text-align: center
+	margin-top: 90px
+	padding: 0
+
+.contact-form
+	font-size: 14px
+	font-style: italic
+	font-family: "LatoWebMedium", sans-serif
+	color: #b9b9b9
+	padding-left: 150px
+
+	input
+		width: 100%
+		height: 55px
+		padding-left: 20px
+		margin-top: 20px
+		border: none
+		border-radius: 7px
+		float: right
+
+		&::placeholder
+			color: #b9b9b9
+
+	textarea
+		width: 100%
+		height: 96px
+		padding-left: 20px
+		margin-top: 20px
+		padding-top: 20px
+		border: none
+		border-radius: 7px
+		resize: none
+		float: right
+
+		&::placeholder
+			color: #b9b9b9
+
+input.company
+	width: 30%
+	
+input.subject
+	width: 65%
+	float: left
+
+input.send-button
+	color: white
+	font-style: normal
+	font-family: "LatoWebHeavy", sans-serif
+	width: auto
+	padding-right: 20px
+	border-radius: 30px
+	background: #b5ec84
+	float: right
+	margin-top: 25px
+
+.find-title
+	font-size: 44px
+	font-family: "LatoWebLight", sans-serif
+	color: white
+
+.find-list
+	color: #fff
+	margin-top: 40px
+	li
+		list-style: none
+		font-size: 12px
+		margin-top: 10px
+
+		i
+			padding-right: 10px
+
+.contact-find
+	padding-left: 50px
+
+.keep-wrapp
+	background: #b1e568
+
+
+.keep-b1
+	padding-left: 170px
+	padding-top: 0px
+	padding-bottom: 50px
+	h1
+		color: #fff
+		margin-top: 50px
+
+	p
+		margin-top: -60px
+		color: white
+
+input.keeptext
+	color: #c7c7c7
+	border: none
+	font-size: 16px
+	padding: 30px 20px 
+	border-radius: 5px 0px 0px 5px 
+	margin-top: 90px
+	width: 80%
+	font-family: "LatoWebMedium", sans-serif
+	font-style: italic
+	float: left
+	&::placeholder
+			color: #b9b9b9
+
+.keep-b2
+	padding-left: 50px
+	padding-right: 150px 
+
+.span-send-button
+	width: 15%
+	height: 85px
+	background: #01a2a6
+	display: block
+	float: left
+	margin-top: 90px
+	border-radius: 0px 5px 5px 0px 
+	text-align: center
+	cursor: pointer
+	i
+		font-size: 40px
+		color: #fff
+		margin-top: 25px
+
+
+.footer-wrapp
+	min-height: 270px
+	background: url(img/footer.jpg) no-repeat
+	background-size: cover
+
+	p
+
+		text-align: center
+		margin-top: 205px
+
+p.term
+	text-align: left
+	margin-top: 20px
+
+.social
+	float: right
+
+	li
+		font-size: 25px
+		list-style: none
+		display: inline-block
+		margin-left: 15px
+		cursor: pointer
+//ALWAYS END
+@import media
+
+//Load Libs SASS
+@import app/libs/animate/animate.sass

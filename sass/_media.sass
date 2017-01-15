@@ -1,0 +1,189 @@
+@import bourbon
+
+/*==========  Desktop First Method  ==========*/
+
+/*==========  CUSTOM SCREEN  ==========*/
+
+@media only screen and (max-width : 1279px)
+	/**/
+	.desc-menu
+		display: none
+	.menu-button
+		display: block
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.header-lets
+		margin-top: 150px
+	.img-wrapp
+		margin-right: 10px
+	.city-text
+		max-width: 450px
+	.batu-wrapp
+		margin-left: 0px
+		margin-top: 0px
+		min-height: auto
+	.triangle
+		position: absolute
+		@include triangle(27px, #f5fafc, up)
+		left: 50%
+		margin-left: -5px
+		top: 100%
+		margin-top: -26px
+	.imager-siru
+		margin-left: 0px
+	.imager-bromo
+		margin-left: 0px
+	.pagination
+		margin-top: 30px
+	.destination-wall
+		padding-bottom: 100px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.city-text
+		text-align: center
+		max-width: none
+		padding-left: 20px
+		padding-right: 20px
+		margin-bottom: 80px
+	.city-title
+		text-align: center
+	.img-wrapp
+		width: 100%
+		height: 264px
+		background-size: auto
+		background-position: center
+		background-repeat: no-repeat
+	.destination-title
+		text-align: center
+	.destination-wrap
+		padding-left: 0px
+		p
+			text-align: center
+			margin: 0
+			padding: 0
+	h2
+		font-size: 50px
+	.search
+		width: 100%
+		margin: 0
+	.search-wrapp
+		margin: 0
+	.all,.recomended
+		float: none
+	.filter
+		text-align: center
+		padding-right: 0px
+	.contact-form
+		padding-left: 0px
+	input.keeptext,.span-send-button
+		margin-top: 0px
+	.keep-b1
+		text-align: center
+		padding-left: 0px
+	.keep-b2
+		padding-bottom: 70px
+		padding-left: 10px
+		padding-right: 20px
+	input.keeptext
+		width: 90%
+	.span-send-button
+		width: 10%
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+	.header-line
+		padding-left: 10px
+		padding-right: 10px
+	.header-lets
+		font-size: 50px
+		padding-bottom: 30px
+	#test-modal2,#test-modal
+		h1
+			font-size: 50px
+	.cont-title,.ittinery
+		font-size: 50px
+	.keep-b1
+		h1
+			font-size: 50px
+			padding-bottom: 50px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.header-line
+		padding-left: 0px
+		padding-right: 0px
+	.header-circle
+		display: none
+	.button
+		font-size: 14px
+		padding: 20px 20px
+	.header-text-wrap
+		p
+			padding-bottom: 45px
+	.header-wall
+		min-height: 100%
+		padding-bottom: 100px
+	.result-wrapp
+		text-align: center
+	a[class*=result-button]
+		float: none
+		display: inline-block
+	.result-button2
+		margin-right: 0px
+
+	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.menu-button
+		margin-right: 5px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
